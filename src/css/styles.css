@@ -1,0 +1,156 @@
+html {
+    font-size: 62.5%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    background: #f0f0f0;
+    transition: color 0.3s ease;
+    padding: 2rem;
+}
+
+h1 {
+    font-size: 3rem;
+    text-align: center;
+}
+
+/*MOBILE*/
+main {
+    display: flex;
+    flex-direction: column;
+    gap: 1.8rem;
+    width: 95%;
+}
+
+section {
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    background: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(4px);
+}
+
+.controls {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.color-input-group {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.8rem;
+}
+
+input[type="color"] {
+    width: 100%;
+    height: 60px;
+    border: 3px solid #fff;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.output h2 {
+    text-align: center;
+    font-size: 1.8rem;
+    margin-bottom: 1.5rem;
+}
+
+.code-display {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.05);
+    padding: 1.5rem;
+    border-radius: 8px;
+    border-left: 5px solid #2288e9;
+}
+
+#css-code {
+    font-family: monospace;
+    font-size: 1.3rem;
+    word-break: break-all;
+}
+
+#copy-button {
+    margin-left: 1.2rem;
+    padding: 0.8rem 1.2rem;
+    border: none;
+    border-radius: 5px;
+    background: #333;
+    color: #fff;
+    cursor: pointer;
+    white-space: nowrap;
+}
+
+/*DESKTOP */
+@media (min-width: 769px) {
+    main {
+        max-width: 600px;
+    }
+
+    .controls {
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    input[type="color"] {
+        width: 120px;
+        height: 120px;
+    }
+}
+
+footer {
+    margin-top: 2rem;
+    font-size: 1.4rem;
+}
+
+.code-display {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.05);
+    padding: 1.5rem;
+    border-radius: 8px;
+    border-left: 5px solid #2288e9;
+    margin-top: 1rem;
+}
+
+#css-code {
+    font-family: monospace;
+    font-size: 1.3rem;
+    word-break: break-all;
+}
+
+button {
+    padding: 0.8rem 1.5rem;
+    border: none;
+    border-radius: 5px;
+    background-color: #ff0303;
+    color: white;
+    font-size: 1.4rem;
+    cursor: pointer;
+    transition: transform 0.1s, background 0.2s;
+}
+
+button:active {
+    transform: scale(0.95);
+}
+
+footer p {
+    font-size: 1.4rem;
+    margin-top: 2rem;
+}
