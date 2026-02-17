@@ -1,6 +1,6 @@
 # 🎨 Gradient Generator & Background Changer
 
-Um gerador de gradientes dinâmico e intuitivo desenvolvido com **HTML5, CSS3 e JavaScript (ES6+)**. Este projeto permite criar transições de cores em tempo real, fornecendo o código CSS pronto para uso e garantindo acessibilidade através de contraste inteligente.
+Um gerador de gradientes dinâmico e intuitivo desenvolvido com **HTML5, CSS3 e JavaScript**. Este projeto permite criar transições de cores em tempo real, fornecendo o código CSS pronto para uso e garantindo acessibilidade através de contraste inteligente.
 
 ## 🚀 Funcionalidades
 
