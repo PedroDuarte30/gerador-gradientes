@@ -5,7 +5,7 @@ Um gerador de gradientes dinâmico e intuitivo desenvolvido com **HTML5, CSS3 e 
 ## 🚀 Funcionalidades
 
 - **Mudança em Tempo Real:** Visualiza o gradiente no fundo da página instantaneamente ao alterar as cores.
-- **Contraste Inteligente:** O texto da página alterna automaticamente entre preto e branco para garantir legibilidade, independentemente da cor do fundo (algoritmo YIQ).
+- **Contraste Inteligente:** O texto da página alterna automaticamente entre preto e branco para garantir legibilidade, independentemente da cor do fundo.
 - **Código CSS Pronto:** Gera a regra `linear-gradient` atualizada automaticamente.
 - **Copy to Clipboard:** Botão dedicado para copiar o código gerado com feedback visual.
 - **Design Responsivo:** Interface limpa e centralizada que se adapta a diferentes tamanhos de ecrã.
@@ -22,9 +22,3 @@ Este projeto foi fundamental para consolidar conceitos de:
 1.  **Manipulação de Inputs:** Diferença entre eventos de `change` e `input`.
 2.  **Lógica Matemática em Cores:** Conversão de valores Hexadecimais para RGB para calcular a luminosidade.
 3.  **Experiência do Utilizador (UX):** Implementação de feedback visual ao copiar texto e ajuste de contraste dinâmico.
-
-## 🔧 Como usar
-
-1. Clone o repositório:
-   ```bash
-   git clone [https://github.com/teu-utilizador/nome-do-repositorio.git](https://github.com/teu-utilizador/nome-do-repositorio.git)
