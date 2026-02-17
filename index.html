@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="src/css/styles.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.min.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&amp;family=Orbitron:wght@400;700&amp;family=Poppins:wght@300;400;600&amp;display=swap" rel="stylesheet">
+        <title>Gerador de Gradientes</title>
+    </head>
+    <body>
+        <main>
+            <header>
+                <h1>Gerador de Gradientes</h1>
+            </header>
+
+            <section class="controls">
+                <div class="color-input-group">
+                    <label for="color1">Cor Inicial: </label>
+                    <input type="color" id="color1" value="#ff0000">
+                </div>
+
+                <div class="color-input-group">
+                    <label for="color2">Cor Final: </label>
+                    <input type="color" id="color2" value="#0000ff">
+                </div>
+            </section>
+
+            <section class="output">
+                <h2>Código CSS gerado: </h2>
+                <div class="code-display">
+                    <span id="css-code">background: linear-gradient(to right, #ff0000, #0000ff);</span>
+                    <button id="copy-button">Copiar</button>
+                </div>
+            </section>
+        </main>
+        <footer>
+            <p>&copy; 2026 Pedro Duarte. Todos os direitos reservados.</p>
+        </footer>
+        <script src="src/js/main.js"></script>
+    </body>
+</html>
